@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deborahold</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9a9cea191.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="#" class="logo">Debeedesign</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">RESUME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Welcome to my website</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore consequuntu
+            r cumque <br> eaque unde asperiores iusto
+        </p>
+        <a href="#" class="Hero-btn">HIRE ME</a>
+    </div>    
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills">
+        <h1 class="title">Skills</h4>
+        <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore consequuntu
+                r cumque</p>
+
+        <div class="row">
+            <div class="skill-col">
+                <img src="icons/ui (1).png" alt="UI" class="icon">
+                <h3>UI Design</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore consequuntu
+                    r cumqueLorem, ipsum dolor sit amet cone</p>
+            </div>
+            <div class="skill-col">
+                <img src="icons/ux (1).png" alt="UX" class="icon">
+                <h3>UX Design</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore consequuntu
+                    r cumqueLorem, ipsum dolor sit amet con</p>
+            </div>
+            <div class="skill-col">
+                <img src="icons/development (1).png" alt="Web Development" class="icon">
+                <h3>HTML/CSS</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore consequuntu
+                    r cumqueLorem, ipsum dolor sit amet co</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio">
+        <h1>My Portfolio</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="row">
+            <div class="portfolio-col">
+                <img src="Images/Rectangle 7.png" alt="portfolio1">
+                <div class="layer">
+                    <h3>9jadelivery</h3>
+                </div>
+            </div>
+            <div class="portfolio-col">
+                <img src="Images/Rectangle 315.png" alt="portfolio2">
+                <div class="layer">
+                    <h3>FeTech Website</h3>
+                </div>
+            </div>
+            <div class="portfolio-col">
+                <img src="Images/Rectangle 9.png" alt="portfolio3">
+                <div class="layer">
+                    <h3>Sanwopay Mobile</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---- Call To Action ---->
+    <section class="cta">
+        <h1>Let's talk about your project</h1>
+        <a href="#" class="Hero-btn">LET'S TALK</a>
+    </section>
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisic <br> ing elit Saepe labore consequuntu</p>
+    <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-behance"></i>
+        <i class="fa fa-dribbble"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Daisy_design</p>
+</section>
+
+<!---- JAVASCRIPT ---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
