@@ -21,12 +21,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    width: 150px;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
+nav img {
+    width: 100px;
 }
 .nav-links{
     flex: 1;
@@ -67,6 +63,14 @@ nav{
 .text-box h1 {
     font-size: 64px;
 }
+.text-box h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.text-box h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 .text-box p{
     margin: 10px 0 40px;
     font-size: 16px;
@@ -94,8 +98,17 @@ nav .fas {
     display: none;
 }
 @media (max-width: 700px) {
+    nav img {
+        width: 50px;
+    }
     .text-box h1 {
-        font-size: 24px;
+        font-size: 28px;
+    }
+    .text-box h3{
+        font-size: 20px;
+    }
+    .text-box h5{
+        font-size: 16px;
     }
     .nav-links ul li {
         display: block;
